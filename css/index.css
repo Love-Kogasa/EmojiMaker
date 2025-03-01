@@ -1,0 +1,91 @@
+.contain {
+  margin-top: 6ch;
+  margin: 5ch;
+}
+
+.navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: block;
+  width: 100%;
+  padding: 0.5ch;
+  padding-left: 2ch;
+  font-size: 120%;
+  border-bottom: 2px solid #9b4dca;
+  z-index: 2;
+  background-color: #FFF;
+}
+
+.emoji {
+  height: 10ch;
+  width: 10ch;
+  background-color: #AAA;
+  /*margin-top: 5ch;
+  box-shadow: 5px 5px 1em #9b4dca55;*/
+  position: relative;
+  /*margin-left: 2ch;*/
+  background-size: 100% 100%;
+}
+
+.item, .box {
+  position: absolute;
+  display: block;
+}
+
+body {
+  background-color: #FCFEFF;
+}
+
+h2, h3, h1 {
+  margin: 0px;
+}
+
+.box {
+  background-color: #FFF;
+  border-radius: 4px;
+  z-index: 9;
+  padding: 1ch;
+  width: 20ch;
+  box-shadow: 5px 5px 1em #9b4dca55;
+  max-height: 50ch;
+  overflow-y: auto;
+}
+
+.dialog {
+  position: fixed;
+  border-radius: 1ch;
+  background-color: #FFF;
+  z-index: 999;
+  top: 10ch;
+  left: 5vw;
+  display: block;
+  width: 90vw;
+}
+
+.dialog > nav {
+  background-color: #000000;
+  display: block;
+  width: 100%;
+  padding: 4px;
+  padding-left: 2ch;
+  color: white;
+  border-radius: 0px 1ch 0px 0px;
+  font-weight: bold;
+  margin-bottom: 2ch;
+}
+
+.dialog > text {
+  padding: 2ch;
+}
+
+mask {
+  position: fixed;
+  background-color: #00000055;
+  display: block;
+  z-index: 997;
+  left: -10vw;
+  width: 120vw;
+  top: -10vh;
+  height: 100vh;
+}
